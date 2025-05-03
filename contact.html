@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>
+        Contact Me
+    </title>
+    <link rel="icon" href="images/logo-32x32.png" sizes="32x32" type="image/png">
+
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Me</h1>
+    <div class="custom-bar"></div>
+
+</header>
+<body>
+    <img class="cat"src="images/vecteezy_cute-cat-cartoon-kitten-pet_8483894.png"></img>
+
+    <div class="container">
+        <div class="rectanglebehind"></div>
+        
+        <div class="rectanglefront">
+            <div class="social-media">
+                <ul class="sociallist">
+                    <li><img src="images/email-icon.png"></img><a href="mailto:patton.le.23@gmail.com">patton.le.23@gmail.com</a></li>
+                    <li><img src="images/phone-icon.png"></img><a href="tel:+6147796556">+1 614-779-6556</a></li>
+                    <li><img src="images/github-icon.png"  ></img><a href="https://www.google.com" target="_blank">GitHub</a>                    </li>
+                    <li><img src="images/linkedin-icon.png"></img><a href="https://www.facebook.com" target="_blank">LinkedIn</a></li>
+                    <li><img src="images/whatsapp-icon.png"></img><a href="https://www.instagram.com" target="_blank">WhatsApp</a></li>
+                </ul>
+    </div>
+        </div>
+    </div>
+    <div class="contact-box">
+    <h1>I'd loved to hear from you!</h1>
+    <h4>I'm always looking for new projects or opportunities to collaborate.</h4>
+    
+    <form id="feedback-form" action="https://formspree.io/f/xkgnppkv" method="POST">
+  <label>Name *</label><input type="text" name="name" placeholder="First Last" required>
+  <label>Email *</label><input type="email" name="email" placeholder="name@example.com" required>
+  <label>Message *</label><textarea name="message" placeholder="Write text here..." required></textarea>
+  
+  
+  <button type="submit">Send Message</button></form>
+  <div id="response-message" style="margin-top: 10px; color: red;"></div>
+
+    </div>
+
+    <script src="formSubmit.js"></script>
+
+    
+      
+   </body>
+
+</html>

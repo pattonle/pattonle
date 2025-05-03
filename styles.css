@@ -1,0 +1,207 @@
+body{
+    background-color: #2d2d2d ;
+    color:  #fdfbd4;
+    font-family: 'Arial',sans-serif;
+}
+li a{
+    color: #fff;
+    font-family: 'Arial',sans-serif;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  header{
+    padding: 20px;
+  }
+  nav{
+    display:flex;
+    justify-content: right;
+  }
+  nav ul{
+  list-style-type: none;
+  display: flex;
+  }
+  nav ul li {
+
+    margin: 0 20px; 
+}
+h3 a{
+    color: #fdfbd4;
+}
+body a{
+    color: #fdfbd4;
+    text-decoration: no;
+    font-weight: bold;
+}
+.welcome-message{
+    color: #fdfbd4;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+
+}
+.welcome-message h1{
+    font-size: 40px;
+}
+.welcome-message h2, .welcome-message h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+header h1{
+    position: absolute;
+    font-size: 45px;
+    left:25%;
+}
+.custom-bar {
+    width: 60%;             
+    height: 3px;            
+    background-color: #fdfbd4; 
+    margin-top: 90px;
+    margin-left: 20%;
+}
+.circle-image{
+    width:200px;
+    height:200px; 
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.aboutme,.resume{
+margin-top:1% ;
+font-size: 17px;
+padding-left: 20%;
+padding-right: 20%;
+line-height: 1.6;
+}
+.name{
+    font-size: 25px;
+    margin-top: 2%;
+    margin-left: 43%;
+}
+.subname{
+    font-size: 20px;
+    margin-left: 41%;
+    margin-top: -1%;
+}
+.cat{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-left: 70%;
+    margin-top: 20%;
+    pointer-events: none;
+  }
+.rectanglebehind{
+    position: absolute;
+    width: 350px;
+    height: 425px;
+    background-color: #e0e0e0 ;
+    top: 230px;
+    left: 110px;
+}
+.rectanglefront{
+    position: absolute;
+    width: 350px;
+    height: 425px;
+    background-color: #474a4d ;
+    top: 220px;
+    left: 120px;
+}
+.sociallist{
+    list-style-type: none;
+    padding: 4; 
+
+}
+.sociallist img {
+    width: 30px;  /* Set icon size */
+    height: 30px;
+    margin-right: 10px; /* Add space between image and hyperlink text */
+    vertical-align: middle; /* Ensures the image is aligned in the middle */
+
+}
+.sociallist li {
+    margin: 20px 0;
+}
+.sociallist li:first-child {
+    margin-top: 60px; /* Adjust the margin value as needed */
+}
+.sociallist a {
+    color: #fdfbd4; /* Light yellow text color */
+    text-decoration: underline; /* Remove underline */
+    font-size: 16px; /* Set font size */
+}
+
+.sociallist a:hover {
+    color: #fff; /* Change text color on hover */
+}
+.contact-box{
+    line-height: 1;  /* Adjust the line height to change spacing */
+    margin-top: 1%;
+    margin-left: 40%;
+    color: #fdfbd4;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+.contact-box h1, .contact-box h3{
+    margin-bottom: 10px;
+}
+.contact-box h4{
+    margin-top: 5px;
+}
+.contact-box textarea {
+    resize: none; /* Prevent resizing of textarea */
+    height: 90px;
+    display: flex;
+    flex-direction: column; /* This stacks the form elements vertically */
+    gap: 0.25rem; /* Adds space between form fields */
+    width: 100%;
+    max-width: 286px; /* Optional: limits form width */
+    margin: left; /* Centers the form horizontally */
+    padding: 0.7rem; /* Make padding consistent for all fields */
+
+}
+.contact-box button {
+    padding: 10px 20px;
+    background-color: #2d2d2d;  /* Dark background for button */
+    color: #fdfbd4;              /* Light text color */
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 180px;                /* Button takes full width */
+    margin-top: 10px;  
+    border-color: #e0e0e0;
+    border-width: 1px;
+}
+.contact-box button:hover {
+    background-color: #ffcc00;  /* Hover effect: button turns yellow */
+    transition: background-color 0.3s ease;
+}
+.contact-box form {
+    display: flex;
+    flex-direction: column; /* This stacks the form elements vertically */
+    gap: 0.25rem; /* Adds space between form fields */
+    width: 100%;
+    max-width: 300; /* Optional: limits form width */
+    margin: 0 auto; /* Centers the form horizontally */
+  }
+.contact-box input[type="text"], input[type="email"] {
+    width: 60%; /* Adjust the width of Name and Email input boxes */
+    max-width: 280px; /* Ensures the width doesn't exceed the parent container */
+    padding: 0.8rem;
+    font-size: 1rem;
+    height: 10px;
+    margin-top: 0.3rem; /* Adds slight spacing between label and input */
+  }
+  .contact-box input::placeholder, textarea::placeholder {
+    color: #888; /* You can adjust the color */
+    font-family: Arial, sans-serif; /* Make sure the font is consistent */
+    font-size: 1rem; /* Adjust font size to be the same */
+    font-style: italic; /* Optional: if you want italic placeholders */
+}
+.aboutmeall{
+    margin-bottom:90px;
+}
