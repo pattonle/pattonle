@@ -1,16 +1,24 @@
-## Hi there 👋
+# Patton's Portfolio
 
-<!--
-**pattonle/pattonle** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 **Live Site:** https://pattonle.github.io
+📧 **Contact:** patton.le.23@gmail.com
+## About
 
-Here are some ideas to get you started:
+Hello! I'm a Computer Science student building my web development skills. This portfolio showcases my learning journey through projects and experiments.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Features
+- Responsive design (works on all devices)
+- Project showcase
+- Skills section
+- Contact form
+
+## Tech Used
+- HTML, CSS, JavaScript
+- 
+- Hosted on GitHub Pages
+
+## Projects
+1. **Project 1** - COMING SOON
+
+
+🔨 **Last Updated:** 5/3/2025
